@@ -3,10 +3,11 @@ language: python
 python:
   - "3.7"
 
- script:
-    - pytest tests.py
 
- notifications:
-   email:
+script:
+  - pytest tests.py
+
+notifications:
+  email:
     - rutharq40@gmail.com
     - ufrapl21@gmail.com
